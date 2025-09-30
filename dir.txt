@@ -1,0 +1,17 @@
+.
+├── README.md
+├── dir.txt
+├── requirements.txt
+├── scripts
+│   └── instagram
+│       ├── __init__.py
+│       ├── config.py
+│       ├── image_uploader.py
+│       ├── reel_uploader.py
+│       └── utils.py
+└── tests
+    ├── instagramAPI.py
+    └── youtubeAPI.py
+
+
+120 directories, 874 files
