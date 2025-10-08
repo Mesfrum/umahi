@@ -12,7 +12,8 @@ def download_shorts(url: str):
     ydl_opts = {
         "format": "bv[height<=720]+ba/best[height<=720]",
         "outtmpl": os.path.join(DOWNLOAD_DIR, "%(id)s.%(ext)s"),
-        "noplaylist": False,  # Allow playlist or single video
+        "noplaylist": False,
+        "cookiefile": "/home/akhil/umahi_kalan/scripts/youtube/cookies.txt",
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
